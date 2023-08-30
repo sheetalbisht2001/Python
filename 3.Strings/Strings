@@ -1,0 +1,88 @@
+python3
+
+Python 3.8.10 (default, May 26 2023, 14:05:08) 
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> "hello"  //single quotes is also a string
+'hello'
+
+>>> 'hello' //double quotes is also a string
+'hello'
+
+>>> 'he's a mad man'  // we cannot write like this 
+  File "<stdin>", line 1
+    'he's a mad man'
+
+        ^
+SyntaxError: EOL while scanning string literal
+>>> 'he\'s a mad man'    //best way to write using (\)
+"he's a mad man"
+
+
+
+>>> greet = 'hello'
+>>> greet
+'hello'
+
+>>> greet[0]   //calling specific char with index value
+'h'
+
+>>> greet[1]
+'e'
+
+>>> greet[-1]
+'o'
+
+>>> greet[-5]
+'h'
+
+>>> greet[0:3]  
+'hel'
+
+>>> greet[-1:2]
+''
+
+>>> greet[2:-1]
+'ll'
+
+>>> greet          //greet value will remain same it will not change
+'hello'
+
+>>> greet = greet[0:3] //it will print number until 2index (it will not print 3 index)
+>>> greet
+'hel'
+
+
+>>> greet = 'hello'
+>>> str2 = 'dudes'
+>>> greet+str2     //adding both strings
+'hellodudes'
+
+
+>>> greet + ' ' + str2    //adding both but with proper gap
+'hello dudes'
+
+
+>>> greet * 3   //multiplying string
+'hellohellohello'
+
+
+>>> greet * 5
+'hellohellohellohellohello'
+
+>>> greet.upper()   //converting string word to upper case
+'HELLO'
+
+>>> greet
+'hello'
+
+
+
+>>> cheeses = "brie, chedder , stilton"
+>>> cheeses.split(',')   
+['brie', ' chedder ', ' stilton']
+
+>>>len(greet)  //it will show the lenght of string
+5
+>>>

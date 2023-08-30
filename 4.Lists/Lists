@@ -1,0 +1,119 @@
+sheetal@sheetal-VivoBook-ASUSLaptop-X515EA-X515EA:~$ python3  //stsrt with command python3
+Python 3.8.10 (default, May 26 2023, 14:05:08) 
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+
+
+>>> str ="hello there duded" 
+>>> str.split(' ')       //it will split the string in different words
+['hello', 'there', 'duded']
+
+
+>>> fib1 = [1,1,2,3,5,8,13]
+>>> fib1
+[1, 1, 2, 3, 5, 8, 13]
+
+>>> fib1[2]      //calling number by their index number
+2
+
+>>> fib1[5]       //calling number by their index number
+8
+
+>>> fib1[-3]      //calling number by their index number
+5
+
+>>> fib1[0:4]     //calling the range of numbers like from 0 index till 4 index *but it will print only till 3 index*
+[1, 1, 2, 3]
+
+
+>>> fib2 = [21,34,55]
+>>> fib1+fib2           //adding two things
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+
+>>> fib1
+[1, 1, 2, 3, 5, 8, 13]
+
+>>> fib1[0] = 9   //changing no with the help of index number 
+>>> fib1
+[9, 1, 2, 3, 5, 8, 13]   //you can see first 0 index no is now changed 1-> 9
+
+
+>>> fib1[0] = 1     //changing no with the help of index number 
+>>> fib1
+[1, 1, 2, 3, 5, 8, 13]   //you can see first 0 index no is now changed 9->1
+
+
+>>> fib = fib1+fib2   //adding two list
+>>> fib
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+
+>>> fib.append(89)   //append means adding more value in the list
+>>> fib
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+
+>>> fib.pop()   //pop means removing the particular no from the list
+89
+>>> fib
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+
+>>> fib.append(89)    //adding again 89 to the list
+>>> fib1
+[1, 1, 2, 3, 5, 8, 13]
+
+>>> fib
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]  //added successfully
+
+>>> fib.remove(89)   //can remove particular by this method also
+>>> fib
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+
+>>> fib.append(89)  //writing same number two times it will add two times in the list
+>>> fib.append(89)
+>>> fib
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 89]  //see 
+
+
+>>> fib.remove(89)  //removing that same number but it will remove only 1 number
+>>> fib
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+>>> del(fib[10])   //deleting the number from list through index no
+>>> fib
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+>>> del(fib[3])    //deleting the number from list through index no
+>>> fib
+[1, 1, 2, 5, 8, 13, 21, 34, 55]
+
+
+>>> chars = ['mario','luigi','bowser']
+>>> chars
+['mario', 'luigi', 'bowser']
+
+>>> chars.append(5)   //it will add 5 number in list
+>>> chars
+['mario', 'luigi', 'bowser', 5]  //see
+
+
+>>> nums = [chars,fib1,[1,2,3,4]]     //adding three list ek sath
+>>> nums
+[['mario', 'luigi', 'bowser', 5], [1, 1, 2, 3, 5, 8, 13], [1, 2, 3, 4]]   //see result
+
+>>> nums[0]         //calling through index no
+['mario', 'luigi', 'bowser', 5]
+
+>>> nums[1]                   //calling through index no
+[1, 1, 2, 3, 5, 8, 13]
+
+>>> nums[2]           //calling through index no
+
+[1, 2, 3, 4]     //calling particular list particular number through index no
+>>> nums[2][1]
+2
+>>> 
+
