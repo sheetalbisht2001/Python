@@ -16,7 +16,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
         ^
 SyntaxError: EOL while scanning string literal
->>> 'he\'s a mad man'    //best way to write using (\)
+>>> 'he\'s a mad man'    
+# //best way to write using (\)
 "he's a mad man"
 
 
